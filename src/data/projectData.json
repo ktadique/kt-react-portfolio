@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "GAME DEALER",
+    "img": "example",
+    "desc": "example",
+    "github": "example",
+    "deployed": "example"
+  },
+  {
+    "id": 2,
+    "name": "README Generator",
+    "img": "example",
+    "desc": "example",
+    "github": "example",
+    "deployed": "example"
+  },
+  {
+    "id": 3,
+    "name": "Weather Dashboard",
+    "img": "example",
+    "desc": "example",
+    "github": "example",
+    "deployed": "example"
+  },
+  {
+    "id": 4,
+    "name": "Password Generator",
+    "img": "example",
+    "desc": "example",
+    "github": "example",
+    "deployed": "example"
+  },
+  {
+    "id": 5,
+    "name": "Daily Scheduler",
+    "img": "example",
+    "desc": "example",
+    "github": "example",
+    "deployed": "example"
+  },
+  {
+    "id": 6,
+    "name": "JavaScript Code Quiz",
+    "img": "example",
+    "desc": "example",
+    "github": "example",
+    "deployed": "example"
+  }
+]
