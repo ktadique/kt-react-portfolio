@@ -1,5 +1,5 @@
 import React from "react";
-import Projects from "../data/projectData.json";
+// import Projects from "../data/projectData.json";
 
 const ProjectCard = () => {
   return <div> projects test</div>;
