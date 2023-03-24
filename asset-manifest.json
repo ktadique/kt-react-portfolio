@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kt-react-portfolio/static/css/main.c2cab247.css",
-    "main.js": "/kt-react-portfolio/static/js/main.5d84b1ab.js",
+    "main.css": "/kt-react-portfolio/static/css/main.5601e071.css",
+    "main.js": "/kt-react-portfolio/static/js/main.f129d4a6.js",
     "index.html": "/kt-react-portfolio/index.html",
-    "main.c2cab247.css.map": "/kt-react-portfolio/static/css/main.c2cab247.css.map",
-    "main.5d84b1ab.js.map": "/kt-react-portfolio/static/js/main.5d84b1ab.js.map"
+    "main.5601e071.css.map": "/kt-react-portfolio/static/css/main.5601e071.css.map",
+    "main.f129d4a6.js.map": "/kt-react-portfolio/static/js/main.f129d4a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2cab247.css",
-    "static/js/main.5d84b1ab.js"
+    "static/css/main.5601e071.css",
+    "static/js/main.f129d4a6.js"
   ]
 }
