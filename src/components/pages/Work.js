@@ -1,5 +1,6 @@
 import React from "react";
-// import ProjectCard from "../ProjectCard";
+import { Col, Container, Row } from "react-bootstrap";
+import ProjectCard from "../ProjectCard";
 
 function Projects() {
   return (
@@ -12,6 +13,11 @@ function Projects() {
             </span>
           </h1>
         </header>
+        <Container class="projects-container py-5 px-5 container-fluid">
+          <Row xs={1} md={3} class="row p-2">
+            <ProjectCard />
+          </Row>
+        </Container>
       </section>
     </div>
   );

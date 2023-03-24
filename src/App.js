@@ -7,6 +7,9 @@ import About from "./components/pages/About";
 import Projects from "./components/pages/Work";
 import Contact from "./components/pages/Contact";
 
+import "./assets/style/style.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 function App() {
   return (
     <Router>

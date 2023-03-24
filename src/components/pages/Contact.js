@@ -3,11 +3,11 @@ import React from "react";
 function Contact() {
   return (
     <div>
-      <section class="contact-section my-4 text-center" id="contact">
-        <header class="section-header container p-5 text-center">
+      <section className="contact-section my-4 text-center" id="contact">
+        <header className="section-header container p-5 text-center">
           <h1>
-            <span class="underline">
-              Contact Me<span class="emph">!</span>
+            <span className="underline">
+              Contact Me<span className="emph">!</span>
             </span>
           </h1>
         </header>
