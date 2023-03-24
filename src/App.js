@@ -1,22 +1,22 @@
 import React from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import NavBar from "./assets/components/navbar/Navbar";
-import Home from "./assets/components/pages/home/Home";
-import About from "./assets/components/pages/about/About";
-import Work from "./assets/components/pages/work/Work";
-import Contact from "./assets/components/pages/contact/Contact";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Navigation from "./components/Navigation";
+import Home from "./components/pages/Home";
+import About from "./components/pages/About";
+import Projects from "./components/pages/Work";
+import Contact from "./components/pages/Contact";
 
 function App() {
   return (
     <Router>
-      <div>
-        <NavBar />
-        <Routes>
-          <Route path="about" element={<About />} />
-          <Route path="work" element={<Work />} />
-          <Route path="contact" element={<Contact />} />
-        </Routes>
-      </div>
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
     </Router>
   );
 }
