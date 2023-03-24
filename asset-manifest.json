@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/kt-react-portfolio/static/css/main.5601e071.css",
-    "main.js": "/kt-react-portfolio/static/js/main.f129d4a6.js",
+    "main.css": "/kt-react-portfolio/static/css/main.0c473b75.css",
+    "main.js": "/kt-react-portfolio/static/js/main.db616f64.js",
+    "static/media/gutenBooks.gif": "/kt-react-portfolio/static/media/gutenBooks.1d6f69b0ed6229dc2f46.gif",
+    "static/media/bootstrapportfolio.png": "/kt-react-portfolio/static/media/bootstrapportfolio.df1cd3ec66a928e50b92.png",
+    "static/media/scheduler.gif": "/kt-react-portfolio/static/media/scheduler.5b3f62cdcc4cafa34102.gif",
+    "static/media/gamedealer.png": "/kt-react-portfolio/static/media/gamedealer.df1ce84205b84b4955e2.png",
+    "static/media/kt.png": "/kt-react-portfolio/static/media/kt.a0d4a3f163566e1e32ca.png",
+    "static/media/weather.png": "/kt-react-portfolio/static/media/weather.79e3899131138984f586.png",
+    "static/media/readmegen.png": "/kt-react-portfolio/static/media/readmegen.31132414c68c17bffa76.png",
     "index.html": "/kt-react-portfolio/index.html",
-    "main.5601e071.css.map": "/kt-react-portfolio/static/css/main.5601e071.css.map",
-    "main.f129d4a6.js.map": "/kt-react-portfolio/static/js/main.f129d4a6.js.map"
+    "main.0c473b75.css.map": "/kt-react-portfolio/static/css/main.0c473b75.css.map",
+    "main.db616f64.js.map": "/kt-react-portfolio/static/js/main.db616f64.js.map"
   },
   "entrypoints": [
-    "static/css/main.5601e071.css",
-    "static/js/main.f129d4a6.js"
+    "static/css/main.0c473b75.css",
+    "static/js/main.db616f64.js"
   ]
 }
