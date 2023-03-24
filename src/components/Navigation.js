@@ -4,13 +4,15 @@ import Navbar from "react-bootstrap/Navbar";
 
 function Navigation() {
   return (
-    <Navbar expand="lg">
-      <Container>
-        <Navbar.Brand href="/">KT!</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Container>
+      <Navbar className="navbar" expand="lg">
+        <Navbar.Brand className="logo" href="/">
+          KT!
+        </Navbar.Brand>
+        <Navbar.Toggle className="navToggle" aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="nav-link" href="/About">
+            <Nav.Link className="nav-link nav-item" href="/About">
               About
             </Nav.Link>
             <Nav.Link className="nav-link" href="/Projects">
@@ -21,8 +23,8 @@ function Navigation() {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
-    </Navbar>
+      </Navbar>
+    </Container>
   );
 }
 

@@ -16,10 +16,18 @@ function Home() {
   );
 
   return (
-    <Container className="container masthead h-100" id="home">
-      <Row className="row d-flex mx-auto h-100 align-items-center justify-content-center">
-        <Col className="col-lg-6 col-sm-12">
-          <div className="header-content">
+    <Container fluid className="pageWrapper masthead min-vh-100" id="home">
+      <Row className="heroRow">
+        <Col>
+          <img
+            class="img-fluid"
+            alt="Kirsten Memoji"
+            src={require("../../assets/img/kt.png")}
+            rounded
+          />
+        </Col>
+        <Col className="my-5 heroText">
+          <Container className="header-content">
             <p className="lead">Hi! My name is,</p>
             <h1>
               Kirsten Tadique<span className="emph">!</span>
@@ -36,7 +44,7 @@ function Home() {
             >
               Say Hi!
             </Button>
-          </div>
+          </Container>
         </Col>
       </Row>
     </Container>

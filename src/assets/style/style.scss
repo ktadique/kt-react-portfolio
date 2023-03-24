@@ -2,18 +2,15 @@
 
 /* Global Styles */
 
+//font-family: 'Inter', sans-serif;
+//font-family: 'Syne', sans-serif;
+
 /* div {
    border: 1px solid green;
   } */
 
-html,
-body {
-  width: 100%;
-  height: 100%;
+.pageWrapper {
   background-color: #1f242c;
-}
-
-body {
   color: #faebd7;
 }
 
@@ -23,6 +20,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: "Syne", sans-serif;
   font-weight: 700;
 }
 
@@ -35,6 +33,7 @@ h2 {
 }
 
 p {
+  font-family: "Inter", sans-serif;
 }
 
 .emph {
@@ -77,6 +76,12 @@ p {
 
 /* Navigation Styles*/
 
+.logo {
+  font-size: 36px !important;
+  font-weight: 800;
+  text-decoration: none;
+}
+
 .logo a {
   font-size: 45px;
   font-weight: 800;
@@ -84,8 +89,8 @@ p {
 }
 
 .navbar {
-  width: 100%;
-  background-color: transparent;
+  height: 100px;
+  font-family: "Syne", sans-serif;
 }
 
 .navbar a {
@@ -115,42 +120,11 @@ p {
   width: 100%;
 }
 
-/* Hero Jumbotron Styles*/
+/* Homepage Styles */
 
-.masthead {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  /* padding: 0 50px; */
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.header-content {
-  filter: drop-shadow(0 0 0.75rem #777);
-}
-
-.hero-divider {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.hero-divider svg {
-  position: relative;
-  display: block;
-  width: calc(150% + 1.3px);
-  height: 150px;
-}
-
-.hero-divider .shape-fill {
-  fill: #1f242c;
-}
-
-.hero-image-container {
+.lead {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
 }
 
 /* About Section styles */
@@ -187,6 +161,8 @@ p {
 .card {
   box-shadow: rgb(20, 20, 20) 0px 20px 30px -10px;
   height: 500px;
+  color: #faebd7;
+  border: 0px solid;
 }
 
 .card-img {
@@ -227,6 +203,53 @@ p {
 
 .card-img-overlay:hover > * {
   transform: translateY(0);
+}
+
+.projectCardWrapper {
+  margin-bottom: 25px;
+}
+
+#proj1 {
+  background-image: url("../img/gutenBooks.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#proj2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../img/gamedealer.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#proj3 {
+  background-image: url("../img/readmegen.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#proj4 {
+  background-image: url("../img/weather.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#proj5 {
+  background-image: url("../img/scheduler.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#proj6 {
+  background-image: url("../img/bootstrapportfolio.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Contact Styles */

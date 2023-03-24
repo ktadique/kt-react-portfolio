@@ -1,6 +1,7 @@
 [
   {
     "key": 1,
+    "id": "proj1",
     "title": "gutenBooks",
     "img": "../assets/img/gutenBooks.gif",
     "desc": "gutenBooks is a responsive web App for users who would like to read free classical books on the go. Using the Gutendex API, we pull books from the Gutenberg Project epub database and display them using React Reader (powered by ePubJS). ",
@@ -9,6 +10,7 @@
   },
   {
     "key": 2,
+    "id": "proj2",
     "title": "GAME DEALER",
     "img": "../assets/img/gamedealer.png",
     "desc": "The Game Dealer app is for gamers who want to find the best deals on games they would like to buy. Using the RAWG and Cheapshark API respectively, users can input a game by name or be given a recommendation based on what is the most popular and the application provides you the best deals for those games.",
@@ -17,6 +19,7 @@
   },
   {
     "key": 3,
+    "id": "proj3",
     "title": "README Generator",
     "img": "../assets/img/readmegen.png",
     "desc": "example",
@@ -25,6 +28,7 @@
   },
   {
     "key": 4,
+    "id": "proj4",
     "title": "Weather Dashboard",
     "img": "../assets/img/weather.png",
     "desc": "A weather dashboard application which uses the 5 Day Weather Forecast API to retrieve data of the weather outlook for the current day as well as the five following days after. It also contains a functionality which allows users to look for multiple cities by saving search entries for easy comparison.",
@@ -33,6 +37,7 @@
   },
   {
     "key": 5,
+    "id": "proj5",
     "title": "Work Day Scheduler",
     "img": "example",
     "desc": "A simple calendar application that allows a user to save events for each hour of the day. This app runs in the browser and feature dynamically updated HTML and CSS powered by jQuery and Moment.JS.",
@@ -41,6 +46,7 @@
   },
   {
     "key": 6,
+    "id": "proj6",
     "title": "KT Portfolio (Bootstrap)",
     "img": "../assets/img/bootstrapportfolio.png",
     "desc": "My previous portfolio website showcasing my UX and Bootstrap framework knowledge.",

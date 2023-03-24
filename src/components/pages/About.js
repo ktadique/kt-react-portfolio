@@ -3,7 +3,11 @@ import { Col, Container, Row } from "react-bootstrap";
 
 function About() {
   return (
-    <Container className="about-section my-4 text-center" id="about">
+    <Container
+      fluid
+      className="pageWrapper about-section text-center min-vh-100"
+      id="about"
+    >
       <Row className="section-header py-5 px-5 text-lg-left text-sm-center">
         <h1>
           <span className="underline">
@@ -16,7 +20,7 @@ function About() {
           <img
             class="img-fluid"
             alt="Kirsten Memoji"
-            src="/src/assets/img/kt.png"
+            src={require("../../assets/img/kt.png")}
             rounded
           />
         </Col>

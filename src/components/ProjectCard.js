@@ -1,18 +1,14 @@
 import React from "react";
-import { Button, Card, Col, Container } from "react-bootstrap";
+import { Button, Card, Col } from "react-bootstrap";
 import projectData from "../data/projectData.json";
 
 const ProjectCard = () => {
   return (
     <>
       {projectData.map((proj) => (
-        <Col>
-          <Card className="card h-100 rounded-lg h-100" key={proj.key}>
-            <Card.Img
-              src={proj.img}
-              className="card-img w-100"
-              alt={proj.title}
-            />
+        <Col className="projectCardWrapper" key={proj.key}>
+          <Card className=" rounded-lg " id={proj.id}>
+            <Card.Img src={proj.img} className="card-img w-100" />
             <Card.Body className="card-body card-img-overlay card-img-overlay--blur">
               <h5 className="card-title">{proj.title}</h5>
               <Card.Text className="card-text">{proj.desc}</Card.Text>
